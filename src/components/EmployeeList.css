@@ -1,0 +1,84 @@
+
+.navbar {
+    width: 100%;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: calc(100vh - 60px);
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    margin-left: 220px; 
+    margin-top: 50px; 
+}
+
+.search-container input[type="text"] {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.employee-count {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* Employee Table */
+.employee-table {
+    margin-left: 220px; 
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.employee-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.employee-table th, .employee-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.employee-table th {
+    background-color: #a3d2ca;
+    font-weight: bold;
+}
+
+.employee-table img {
+    border-radius: 5px;
+    max-width: 50px;
+    max-height: 50px;
+}

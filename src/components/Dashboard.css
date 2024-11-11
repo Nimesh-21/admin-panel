@@ -1,0 +1,48 @@
+
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.navbar span {
+    margin: 0 10px;
+}
+
+.sidebar {
+    width: 100%;
+    background-color: yellow;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    text-decoration: underline;
+}
+
+.welcome-message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
